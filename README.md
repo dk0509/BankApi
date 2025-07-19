@@ -39,7 +39,7 @@ Returns a list of all banks.
 #### b. **GET /branches/<ifsc_code>/**
 Returns branch and bank details for the given IFSC code.
 
-Used `select_related()` to optimize DB joins for foreign key lookups.
+Used `select_related()` to optimize DB joins for foreign key lookups. 
 
 ---
 
